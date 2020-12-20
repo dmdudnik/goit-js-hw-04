@@ -6,7 +6,6 @@ const inventory = {
   },
   remove(itemName) {
     console.log(`Removing ${itemName} from inventory`);
-
     inventory.items = inventory.items.filter((item) => item !== itemName);
   },
 };
